@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *leftTextField;
+@property (strong, nonatomic) IBOutlet UITextField *rightTextField;
+- (IBAction)clearLeftAndChange:(id)sender;
+- (IBAction)clearRightAndChange:(id)sender;
 
 @end
 
